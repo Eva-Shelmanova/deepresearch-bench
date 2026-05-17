@@ -1,0 +1,23 @@
+# Whitelist repository contents.
+# Raw source files and generated text extractions are intentionally excluded.
+
+*
+
+!.gitignore
+!README.md
+!requirements.txt
+
+!extract_raw_sources.py
+!select_core_excerpts.py
+!build_core_source_packet.py
+!build_core_clusters.py
+!add_cluster_qa.py
+!remediate_needs_review_clusters.py
+!build_core_prompt_drafts.py
+
+!raw_sources_index.csv
+!core_extraction.xlsx
+!core_clusters.xlsx
+!core_prompt_drafts.xlsx
+!core_extraction_manual_audit.md
+
