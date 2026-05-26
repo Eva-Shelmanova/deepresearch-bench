@@ -1,23 +1,16 @@
-# Whitelist repository contents.
-# Raw source files and generated text extractions are intentionally excluded.
+# Whitelist repository contents for the final benchmark package.
+# Large raw sources, intermediate text extractions, archives, caches, and
+# exploratory generation outputs are intentionally excluded.
 
 *
 
 !.gitignore
 !README.md
-!requirements.txt
 
-!extract_raw_sources.py
-!select_core_excerpts.py
-!build_core_source_packet.py
-!build_core_clusters.py
-!add_cluster_qa.py
-!remediate_needs_review_clusters.py
-!build_core_prompt_drafts.py
+!final.xlsx
+!Benchmark Plan.pdf
 
-!raw_sources_index.csv
-!core_extraction.xlsx
-!core_clusters.xlsx
-!core_prompt_drafts.xlsx
-!core_extraction_manual_audit.md
+!manual_prompt_rewrite_batch_001.md
+!manual_deep_research_batch_*.md
+!*_rubrics.md
 
