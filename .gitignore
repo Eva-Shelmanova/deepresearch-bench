@@ -1,16 +1,20 @@
-# Whitelist repository contents for the final benchmark package.
-# Large raw sources, intermediate text extractions, archives, caches, and
-# exploratory generation outputs are intentionally excluded.
+# Whitelist the final benchmark package.
+# Raw sources, extracted text folders, batch drafts, archives, logs, and
+# intermediate workbooks are intentionally excluded.
 
 *
 
 !.gitignore
 !README.md
+!requirements.txt
+!PROMPT_AND_RUBRIC_CRITERIA.md
+
+!extract_raw_sources.py
+!extract_raw_set_sources.py
+!extract_set_sources.py
+!normalize_sources.py
+!build_clean_source_corpus.py
 
 !final.xlsx
 !Benchmark Plan.pdf
-
-!manual_prompt_rewrite_batch_001.md
-!manual_deep_research_batch_*.md
-!*_rubrics.md
 
